@@ -4,10 +4,10 @@ let obiect = {
     b: 2
 }
 
-
-function remove(proprietate) {
+function remove_proprietate(proprietate) {
     delete obiect[proprietate];
     let obiectCopy = {...obiect};
     return obiectCopy;
 }
-console.log(remove("b"));
+
+console.log(remove_proprietate("b"));
