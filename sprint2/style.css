@@ -1,0 +1,42 @@
+body {
+  text-align: left;
+  padding-left: 50px;
+  border-top: 10px solid;
+  border-top-color: #005889;
+  font-size: 20px;
+}
+
+.colored {
+  color: #005889;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+.contact {
+  display: flex;
+  margin-top: 10px;
+}
+
+.contact span {
+  font-size: 15px;
+  margin-right: 60px;
+}
+
+.row-1 {
+  font-size: 24px;
+  margin: 10px;
+}
+
+li {
+  padding: 0px;
+}
+
+h2 {
+  color: #005889;
+}
+
+table {
+  width: 100%;
+  margin-left: 40px;
+}
