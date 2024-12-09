@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 810px;
+  width: 1440px;
+}
+
+.text {
+  background-color: #313a49;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  width: 540px;
+  height: 335px;
+  border-radius: 2px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+#advice-number {
+  color: #53ffab;
+}
+.advice-text {
+  color: #d9d9d9;
+  align-items: center;
+  padding: 50px;
+}
+
+/* .button-image {
+  background-color: #53ffab;
+  border-radius: 40px;
+  height: 65px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -32px;
+}
+
+.image-zar {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+}
+
+.btn {
+  height: 65px;
+  width: 65px;
+  border-radius: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: block;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #004b27;
+} */
+
+#button-image {
+  background-color: #53ffab;
+  border-radius: 40px;
+  height: 65px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -32px;
+}
+
+#image-zar {
+  background: url(zar.png) no-repeat;
+  cursor: pointer;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+}
