@@ -10,5 +10,5 @@ const nr_litere = (sir, litera) => {
   return nr;
 };
 
-console.log(nr_litere('Îmi place programarea', 'a'));
+console.log(nr_litere('Îmi place progrAmarea', 'a'));
 console.log(nr_litere('Vreau să lucrez în IT', 'r'));
